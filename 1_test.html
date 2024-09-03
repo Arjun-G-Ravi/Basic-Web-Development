@@ -59,16 +59,17 @@
 
 <h1>Tables</h1>
 
-<table>
+<table border="30">
     <thead>
         <tr>
             <td>Team</td>
             <td>Score</td>
+            </th>
         </tr>
     </thead>
     <tbody>
         <tr> <!--table row -->
-            <td>team 1</td> <!-- table definition -->
+            <td>team team 1</td> <!-- table definition -->
             <td>10</td>
         </tr>
         <tr>
@@ -76,5 +77,45 @@
             <td>10</td>
         </tr>
     </tbody>
-    
+</table>
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <td colspan="2">Team Scores</td>
+        </tr>
+        <tr>
+            <td>Team</td>
+            <td>Score</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>team team 1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>team 1</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+
+<table border="1">
+    <thead>
+        <tr>
+            <td>Team</td>
+            <td>Score</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">team team 1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>15</td>
+        </tr>
+    </tbody>
 </table>
