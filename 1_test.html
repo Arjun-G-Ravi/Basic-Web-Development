@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<style>
+    h2 {color: red;}
+    h1 {color: green;}
+</style>
 <h1>hello there</h1>
 <h2>This is a test website</h2>
 <p>This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text. This is one paragraph of text.
@@ -52,9 +56,12 @@
 
 <h3>Fill your form</h3>
 <form>
-    <input placeholder="first name">
+    <input type='name' placeholder="first name">
     <br>
     <input placeholder="last name">
+    <br>
+    <input type='submit'>
+    <input type='reset'>
 </form>
 
 <h1>Tables</h1>
@@ -102,6 +109,25 @@
     </tbody>
 </table>
 
+<table border="1">
+    <thead>
+        <tr>
+            <td>Team</td>
+            <td>Score</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">team team 1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>15</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
 <table border="1">
     <thead>
         <tr>
