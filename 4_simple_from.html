@@ -19,6 +19,23 @@
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
         <input type="submit" value="Submit">
+        <!-- HTML form -->
     </form>
+
+    <h3>Another form that goes to a php script</h3>
+    <form method="POST" action="process.php">
+        <input type="text" name="name">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form method="POST" action="process.php">
+        Name: <input type="text" name="name"><br>
+        Marks 1: <input type="number" name="mark1"><br>
+        Marks 2: <input type="number" name="mark2"><br>
+        Marks 3: <input type="number" name="mark3"><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+
 </body>
 </html>
